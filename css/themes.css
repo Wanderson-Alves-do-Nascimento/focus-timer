@@ -1,0 +1,88 @@
+.btn {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Button Icons themes */
+.black-play {
+  background-image: url('../assets/img/black-play.svg');
+}
+.black-pause {
+  background-image: url('../assets/img/black-pause.svg');
+}
+.black-stop{
+  background-image: url('../assets/img/black-stop.svg');
+}
+.black-plus{
+  background-image: url('../assets/img/black-plus.svg');
+}
+.black-minus{
+  background-image: url('../assets/img/black-minus.svg');
+}
+.white-play {
+  background-image: url('../assets/img/white-play.svg');
+}
+.white-pause {
+  background-image: url('../assets/img/white-pause.svg');
+}
+.white-stop{
+  background-image: url('../assets/img/white-stop.svg');
+}
+.white-plus{
+  background-image: url('../assets/img/white-plus.svg');
+}
+.white-minus{
+  background-image: url('../assets/img/white-minus.svg');
+}
+
+.black-florest{
+  background-image: url('../assets/img/black-florest.svg');
+}
+.black-rain{
+  background-image: url('../assets/img/black-rain.svg');
+}
+.black-coffeeshop{
+  background-image: url('../assets/img/black-coffeeshop.svg');
+}
+.black-bonfire{
+  background-image: url('../assets/img/black-bonfire.svg');
+}
+.white-florest{
+  background-image: url('../assets/img/white-florest.svg');
+}
+.white-rain{
+  background-image: url('../assets/img/white-rain.svg');
+}
+.white-coffeeshop{
+  background-image: url('../assets/img/white-coffeeshop.svg');
+}
+.white-bonfire{
+  background-image: url('../assets/img/white-bonfire.svg');
+}
+.florest{
+  background-color: #067e1a;
+}
+.florest #themes button {
+  background-color: #03ac1f;
+}
+.rain {
+  background-color: #06367e;
+}
+.rain #themes button {
+  background-color: #144da1;
+}
+.coffeeshop{
+  background-color: #553d12;
+}
+.coffeeshop #themes button {
+  background-color: #6e440c;
+}
+.bonfire{
+  background-color: #c43c07;
+}
+.bonfire #themes button {
+  background-color: #e7551b;
+}
+.active {
+  box-shadow: 0 4px 8px #e7551b;
+}

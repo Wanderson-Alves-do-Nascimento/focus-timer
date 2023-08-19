@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;700;900&display=swap" rel="stylesheet">
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script type="module" src="./js/main.js"></script>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="shortcut icon" href="./assets/img/favicon.svg" type="image/x-icon">
+  <title>Focus Timer 2.0</title>
+</head>
+<body class="">
+  <div id="app">
+    <div id="timer">
+      <span id="minutes">00</span><span>:</span><span id="seconds">00</span>
+      <div id="controls">
+        <button data-action="toggleStart" class="btn black-play">
+          <span class="sr-only">iniciar/interromper</span>
+        </button>
+        <button data-action="reset" class="btn black-stop">
+          <span class="sr-only">finalizar</span>
+        </button>
+        <button data-action="addTime" class="btn black-plus">
+          <span class="sr-only">adicionar 5 minutos</span>
+        </button>
+        <button data-action="removeTime" class="btn black-minus">
+          <span class="sr-only">diminuir 5 minutos</span>
+        </button>
+      </div>
+    </div>
+    <div id="themes">
+      <button class="btn black-florest">
+        <span class="sr-only">Florest theme</span>
+      </button>
+      <button class="btn black-rain">
+        <span class="sr-only">Rain theme</span>
+      </button>
+      <button class="btn black-coffeeshop">
+        <span class="sr-only">Coffeeshop theme</span>
+      </button>
+      <button class="btn black-bonfire">
+        <span class="sr-only">Bonfire theme</span>
+      </button>
+    </div>
+  </div>
+</body>
+</html>

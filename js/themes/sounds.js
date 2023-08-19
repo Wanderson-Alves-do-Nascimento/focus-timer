@@ -1,0 +1,9 @@
+export const bonfire = new Audio('../../assets/audio/bonfire.wav');
+bonfire.loop = true;
+export const coffeeshop = new Audio('../../assets/audio/coffeeshop.wav');
+coffeeshop.loop = true;
+export const florest = new Audio('../../assets/audio/florest.wav');
+florest.loop = true;
+export const rain = new Audio('../../assets/audio/rain.wav');
+rain.loop = true;
+export const buttonPressAudio = new Audio('../../assets/audio/button-press.wav');

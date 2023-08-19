@@ -1,0 +1,107 @@
+@import './themes.css';
+
+:root{
+  --main-theme: #FFFFFF;
+  --main-text-theme: #323238;
+  font-size: clamp(40%, 1% + 2vw, 62.5%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-text-theme);
+  background-color: transparent;
+}
+
+.sr-only{
+  position: absolute;
+  margin: -1px;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  opacity: 0;
+  overflow: hidden;
+  appearance: none;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  gap: 19.2rem;
+}
+button {
+  background-color: transparent;
+  border: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+#timer{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  padding: 2.4rem;
+  border-radius: 2.4rem;
+  width: 37.2rem;
+  height: 24.8rem;
+  text-align: center;
+}
+#timer span {
+  font-size: 12.6rem;
+  font-weight: 600;
+}
+#timer span#minutes,
+#timer span#seconds {
+  cursor: pointer;
+}
+#controls{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#controls button{
+  display: flex;
+  border-radius: 50%;
+}
+
+#controls .btn {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+#themes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-self: center;
+  gap: 3.2rem;
+}
+#themes .btn {
+  background-size: 5.6rem;
+}
+#themes button {
+  font-size: 5.6rem;
+  background-color: #E1E1E6;
+  height: 15.2rem;
+  width: 13.8rem;
+  border-radius: 2.4rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+#themes img{
+  background-color: transparent;
+}
+
+@media (max-width: 720px){
+  #app {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+  #themes{
+    display: flex;
+  }
+}
